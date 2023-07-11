@@ -6,7 +6,7 @@ object test extends App{
     else if (x * x > n) true
     else prime(n, x + 1)
   }
-
-    println(prime(11))
+    var n:Int=10
+    println(s" ${n}is a prime number: ${prime(n)}")
     
 }
