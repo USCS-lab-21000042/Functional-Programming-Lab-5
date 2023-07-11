@@ -16,5 +16,5 @@ object test extends App{
         }
         else 0
     }
-    println(totalofeven(11))
+    println(s"total of even number is ${totalofeven(11)}")
 }
